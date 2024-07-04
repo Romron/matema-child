@@ -18,21 +18,18 @@ get_header(); ?>
 
          <section class="test-work-section">
             <article class="test-work-article">
-               <div class="test-work-article__header"></div>
-               <div class="test-work-article__body"></div>
-               <div class="test-work-article__footer"></div>
+               <div class="test-work-article__header"><?php echo get_field('left_column_title'); ?></div>
+               <div class="test-work-article__body"><?php echo get_field('left_column_description'); ?></div>
             </article>
 
             <article class="test-work-article">
-               <div class="test-work-article__header"></div>
-               <div class="test-work-article__body"></div>
-               <div class="test-work-article__footer"></div>
+               <div class="test-work-article__header"><?php echo get_field('right_column_title'); ?></div>
+               <div class="test-work-article__body"><?php echo get_field('right_column_description'); ?></div>
             </article>
 
          </section>
 
-         <section class="gravity-form">
-         </section>
+         <section class="gravity-form"><?php echo get_field('gravity_form_id'); ?></section>
 
 
       </div>
