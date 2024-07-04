@@ -31,6 +31,13 @@ flex-basis: 50%;
 }
 .test-work-article__body {
 
+	    height: 0px;
+    overflow: hidden;
+    pointerevents: none;
+    opacity: 0;
+    width: 0px;
+    z-index: 0;
+
 }
 
 .gravity-form{
