@@ -20,11 +20,16 @@ flex-basis: 50%;
 
 .test-work-article__header {
 
-}
-.test-work-article__body {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: -0.44px;
+	line-height: 1.1;
+	text-transform: uppercase;
+	padding: 10px 0px;
+
 
 }
-.test-work-article__footer {
+.test-work-article__body {
 
 }
 
