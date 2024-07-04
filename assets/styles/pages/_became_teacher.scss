@@ -1,0 +1,175 @@
+.page-became-teacher {
+
+    .what-you-get {
+        margin-bottom: 80px;
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .col {
+            width: calc(33.3333% - 10px);
+            @media screen and (max-width: 991px) {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            .block {
+                box-sizing: border-box;
+                background-color: #fff;
+                border: 1px solid #CFD6E4;
+                border-radius: 10px;
+                padding: 20px;
+                .icon {
+                    svg {
+                        height: 32px;
+                        width: 32px;
+                    }
+                    margin-bottom: 40px;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .why-us {
+        margin-bottom: 80px;
+        .blue-wrap {
+            box-sizing: border-box;
+            background-color: #112136;
+            border-radius: 24px;
+            color: #fff;
+            padding: 80px;
+            padding-bottom: 20px;
+            @media screen and (max-width: 991px) {
+                padding: 40px 20px 20px;
+            }
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            .col {
+                box-sizing: border-box;
+                margin-bottom: 60px;
+                padding-right: 40px;
+                width: 33.3333%;
+                @media screen and (max-width: 991px) {
+                    padding-right: 0;
+                    margin-bottom: 20px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .join-matema {
+        box-sizing: border-box;
+        background-color: #FF6943;
+        border-radius: 24px;
+        margin-bottom: 80px;
+        padding: 80px;
+        text-align: center;
+        h2 {
+            color: #fff;
+        }
+        strong {
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        .button {
+            margin-top: 60px;
+        }
+    }
+
+    .calculator-section  {
+        .col {
+            width: 50%;
+            @media screen and (max-width: 991px) {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+        }
+        .income-calculator {
+            background-color: #6536D6;
+            color: #fff;
+            padding: 60px;
+            .cell {
+                box-sizing: border-box;
+                border: 1px solid #fff;
+                margin: 20px 0;
+                font-size: 18px;
+                padding: 15px;
+                outline: none;
+            }
+            #total-income {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .better-section {
+        box-sizing: border-box;
+        margin: 80px 0;
+        .matema-features {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 80px;
+            strong {
+                box-sizing: border-box;
+                background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.9998 21.3327C17.1545 21.3327 21.3331 17.154 21.3331 11.9993C21.3331 6.84469 17.1545 2.66602 11.9998 2.66602C6.84515 2.66602 2.66647 6.84469 2.66647 11.9993C2.66647 17.154 6.84515 21.3327 11.9998 21.3327Z' stroke='%236536D6' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.5 12L11.0175 14.6663L15.5 10' stroke='%236536D6' stroke-width='1.25' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+                background-position: left 0 top 0;
+                background-repeat: no-repeat;
+                display: block;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 40px;
+                padding-left: 40px;
+                padding-bottom: 5px;
+                width: 50%;
+            }
+        }
+        .others-problems {
+            margin-bottom: 80px;
+            h3 {
+                // text-align: center;
+            }
+            .row {
+                align-items: flex-start;
+                display: flex;
+                justify-content: space-between;
+            }
+            .col {
+                box-sizing: border-box;
+                padding-right: 80px;
+                width: 33.3333%;
+                @media screen and (max-width: 991px) {
+                    padding-right: 0;
+                    width: 100%;
+                }
+                li {
+                    box-sizing: border-box;
+                    background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 10.5C7.72386 10.5 7.5 10.7239 7.5 11C7.5 11.2761 7.72386 11.5 8 11.5V10.5ZM14 11.5C14.2761 11.5 14.5 11.2761 14.5 11C14.5 10.7239 14.2761 10.5 14 10.5V11.5ZM20.5 11C20.5 16.2467 16.2467 20.5 11 20.5V21.5C16.799 21.5 21.5 16.799 21.5 11H20.5ZM11 20.5C5.75329 20.5 1.5 16.2467 1.5 11H0.5C0.5 16.799 5.20101 21.5 11 21.5V20.5ZM1.5 11C1.5 5.75329 5.75329 1.5 11 1.5V0.5C5.20101 0.5 0.5 5.20101 0.5 11H1.5ZM11 1.5C16.2467 1.5 20.5 5.75329 20.5 11H21.5C21.5 5.20101 16.799 0.5 11 0.5V1.5ZM8 11.5H14V10.5H8V11.5Z' fill='%23EC1C2E'/%3E%3C/svg%3E%0A");
+                    background-position: left 0 top 2px;
+                    background-repeat: no-repeat;
+                    background-size: 18px auto;
+                    list-style-type: none;
+                    font-size: 14px;
+                    padding-left: 30px;
+                    padding-right: 40px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .about-school {
+        box-sizing: border-box;
+        background-color: #fff;
+        border-radius: 24px;
+        border: 1px solid #CFD6E4;
+        margin: 0 auto 80px;
+        padding: 40px;
+        max-width: 800px;
+    }
+}

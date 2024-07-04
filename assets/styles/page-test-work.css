@@ -1,0 +1,41 @@
+.test-work-section {
+	
+display: flex;
+   width: 100%;
+	border: 1px solid #05fdc7;
+	
+	margin-bottom: 10px;
+
+}
+.test-work-article {
+	   background-color: #fff;
+	
+flex-basis: 50%;
+
+	box-sizing: border-box;
+
+
+	min-height: 50px;
+	border: 1px solid #0515fd;
+
+}
+
+.test-work-article__header {
+
+}
+.test-work-article__body {
+
+}
+.test-work-article__footer {
+
+}
+
+.gravity-form{
+
+	width: 60%;
+	min-height: 150px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #0515fd;
+	
+}

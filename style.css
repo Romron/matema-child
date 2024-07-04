@@ -1,0 +1,156 @@
+/*
+ Theme Name:   Your Custom Theme Child
+ Theme URI:    http://www.elegantthemes.com/gallery/divi/
+ Description:  Your Custom Theme Child Theme
+ Author:       Maksym Ogurtsov
+ Author URI:   -
+ Template:     matema
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ Text Domain:  matema-child
+*/
+/*REVIEWS*/
+header .language-switcher {margin-right: 10px;}
+header .language-switcher li span {display: inline;}
+.language-switcher::after {content: ' ';position: absolute;left: 27px;top: 2px;border: solid black;border-width: 0 2px 2px 0;display: inline-block;padding: 3px;transform: rotate(45deg);-webkit-transform: rotate(45deg);}
+html header .language-switcher:hover li {opacity: 0;visibility: hidden;}
+html header .language-switcher:hover li.wpml-ls-current-language {opacity: 1;visibility: visible;}
+html header .right-side .language-switcher.hovered li {opacity: 1!important;visibility: visible!important;}
+html .wpml-ls-legacy-list-horizontal a {padding: 0 20px 0 0 !important;z-index: 6;position: relative;}
+.mobile {display: none;}
+.tut-reviews {margin: auto;max-width: 1280px;}
+body .glsr-reviews {margin-top: 20px;display: flex;flex-wrap: wrap;}
+.glsr-review {
+box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 14px;
+    display: block;
+    margin-bottom: 20px;
+	padding: 10px 20px;
+	flex: 1 1 33%;
+}
+.details .glsr-summary {justify-content: center;}
+.tutpopnamediv {margin-bottom: 20px;}
+.popuptopphoto .photo, .popuptopphoto .tutor-photo {
+background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 140px;
+    margin: 20px auto 0;
+    width: 140px;
+}
+/*FILTERS*/
+body .wpc-filters-widget-top-container {overflow: hidden;background: transparent;}
+body .wpc-widget-top-inside .wpc-inner-widget-chips-wrapper {overflow: auto;}
+body .wpc-filter-layout-dropdown .select2-container--default .select2-selection--single .select2-selection__arrow, body .wpc-sorting-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: calc(100% - 2px);
+}
+.tutpopnamediv, .gform_wrapper.gravity-theme .gfield_label, .gform_wrapper.gravity-theme .ginput_complex label {font-family: "Rubik",sans-serif;}
+.wpc-edit-filter-set {display: none;}
+/*FORM*/
+body .gform_wrapper.gravity-theme .gfield_label {color: #666;font-size: 14px;font-weight: 200;margin-bottom: 4px;}
+.gform_wrapper.gravity-theme .ginput_complex label {color: #666;font-size: 12px;font-weight: 200;}
+body .gform_wrapper.gravity-theme input[type=color], body .gform_wrapper.gravity-theme input[type=date], body .gform_wrapper.gravity-theme input[type=datetime-local], body .gform_wrapper.gravity-theme input[type=datetime], body .gform_wrapper.gravity-theme input[type=email], body .gform_wrapper.gravity-theme input[type=month], body .gform_wrapper.gravity-theme input[type=number], body .gform_wrapper.gravity-theme input[type=password], body .gform_wrapper.gravity-theme input[type=search], body .gform_wrapper.gravity-theme input[type=tel], body .gform_wrapper.gravity-theme input[type=text], body .gform_wrapper.gravity-theme input[type=time], body .gform_wrapper.gravity-theme input[type=url], body .gform_wrapper.gravity-theme input[type=week], body .gform_wrapper.gravity-theme select, body .gform_wrapper.gravity-theme textarea {
+	background-color: #f8f9fd;
+    border: 1px solid #d8dbe8;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 32px;
+    padding: 0 16px;
+}
+body .gform_wrapper.gravity-theme .gform_footer input {margin-bottom: 0;border: none;}
+body .gform_wrapper.gravity-theme .gform_footer {padding-bottom: 0;}
+.gform_required_legend {display: none;}
+/*SINGLE TUTOR*/
+body .teacher-current .teacher-head {max-width: 100%;}
+.title-flexcont {display: flex;align-items: center;}
+.teacher-card {display: flex;}
+body .teacher-card .photo {margin: 20px 15px 0 35px;}
+.teacher-card .details {flex: 1;}
+.teacher-card .details h1 {font-size: 22px;margin: 0 30px 0 0;}
+.details .glsr-summary {gap: 0 var(--glsr-gap-sm);}
+.details .glsr-summary-text {text-align: center;font-size: 12px;}
+.details .glsr-default {display: flex;align-items: center;}
+body .teacher-card .features li {margin-bottom: 0;}
+.button-price {margin: 20px 35px 0 15px;}
+.price-wrap .price {text-align: center;margin-top: 15px;}
+ul.features {margin-bottom: 0;}
+body .teacher-current .bio-section {margin: 0 auto 40px;width: 100%;}
+body .teacher-current .bio-section .teachers-bio {margin-bottom: 0;}
+body .teacher-card.additional .photo {margin: 20px 15px;}
+/*TUTORS*/
+body .page-tutors .tutors-filter {display: none;}
+body .page-tutors .tutors-filter-trigger, body .page-tutors .tutors-filter {position: static;}
+.page-tutors .tutors-listing .tutor-block .row {flex-wrap: nowrap;gap: 20px;justify-content: space-between;}
+body .wpc-filter-title {margin-bottom: 3px;}
+.tutors-listing .widgettitle {font-size: 16px;line-height: 1;margin-bottom: 2px;}
+.widget_wpc_sorting_widget {padding-bottom: 10px;}
+body .page-tutors .tutors-listing .tutor-block .tutor-info-wrap .details li strong {display: inline;}
+.left-tut-wrap h4 {text-align: center;margin-bottom: 5px;}
+.page-tutors .tutor-photo {margin-bottom: 10px;}
+body .page-tutors .tutors-listing .tutor-block .tutor-info-wrap .details ul {margin: 0 0 10px;}
+body .page-tutors .tutors-listing .tutor-block .tutor-info-wrap .details li {margin-bottom: 0;}
+.right-area .button.smaller {white-space: nowrap;}
+.left-tut-wrap .glsr-summary-rating {font-size: 16px;}
+.tut-city {text-align: center;margin-bottom: 10px;}
+/*DIAGNOSIS*/
+h3.gsection_title {margin: 20px 0 0;}
+body .gform_wrapper.gravity-theme .gsection {
+    border-bottom: 1px solid #ccc;
+    padding: 0 16px 2px 0;
+}
+/*MAIN MENU*/
+.pum-container .tooltip {
+    box-sizing: border-box;
+    background-color: #fffaf0;
+    border: 1px dashed #fbe5c3;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 10px 0 12px;
+    padding: 10px;
+}
+.pum-container .tooltip a {border-bottom: 1px solid #000;}
+html header .right-side .language-switcher.hovered li.wpml-ls-item-gb {display: none;}
+/*MAIN PAGE*/
+body.home .teacher-card .photo {margin: 20px 15px 20px 35px;}
+.page-course .course-feedback .swiper-pagination, .page-template-page-courses-list .faq-section {display: none;}
+/*SMALL SCREENS*/
+@media (max-width: 1280px){
+	.teacher-card .details h1 {font-size: 20px;}
+	.tut-reviews.teachers-section {padding: 0 15px;}
+}
+@media (max-width: 991px){
+	.teacher-card.additional .details h3, .teacher-card.additional .details .price-wrap, .teacher-card.additional .buttons-wrap {text-align: left;}
+	.right-area .buttons-wrap {text-align: center;}
+}
+@media (max-width: 980px){
+	.title-flexcont {display: block;}
+	.teacher-card .details h1 {font-size: 18px;}
+	.details .glsr-summary {justify-content: flex-start;}
+	.details .glsr-summary-text {text-align: left;}
+}
+@media (max-width: 750px){
+	.desktop-pad {display: none;}
+	.mobile {display: block;}
+	.button-price {margin: 20px 0 0 0;}
+	.teacher-card .buttons-wrap, .teacher-card .details .price-wrap {text-align: left;}
+	.teacher-card .details .price {margin-bottom: 0;padding: 0;}
+	.teacher-card.additional .details .price-wrap {margin-bottom: 10px;}
+}
+@media (max-width: 520px){
+	.teacher-card {display: block;}
+	.teacher-card.additional {display: flex;}
+	body .teacher-card .photo, body.home .teacher-card .photo {margin: 20px auto 0;}
+	.teacher-card .details h1 {text-align: center;margin: 0 0 10px;}
+	.glsr-summary-wrap {width: 100%;}
+	.details .glsr-summary {justify-content: center;}
+	.details .glsr-summary-text {text-align: center;}
+	.teacher-card .buttons-wrap, .teacher-card .details .price-wrap {text-align: center;}
+}
+@media (max-width: 360px){
+	.teacher-card.additional {display: block;}
+	body .teacher-card.additional .photo {margin: 20px auto;}
+	.teacher-card.additional .details h3, .teacher-card.additional .details .price-wrap, .teacher-card.additional .buttons-wrap {text-align: center;}
+}

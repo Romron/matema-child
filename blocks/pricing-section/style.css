@@ -1,0 +1,150 @@
+.pricing-section {
+  margin-bottom: 0;
+  padding: 58px 0;
+}
+.pricing-section .head {
+  margin-bottom: 48px;
+}
+.pricing-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pricing-section .col {
+  width: calc(20% - 16px);
+}
+.pricing-section .col + .col .plan h3:before {
+  background: #ffca6a;
+}
+.pricing-section .col + .col + .col .plan h3:before {
+  background: #752de8;
+}
+.pricing-section .col + .col + .col + .col .plan h3:before {
+  background: #03e9ca;
+}
+.pricing-section .plan {
+  box-sizing: border-box;
+  background-color: #222222;
+  border-radius: 10px;
+  color: #fff;
+  min-height: 360px;
+  padding: 32px;
+  position: relative;
+}
+.pricing-section .plan.best-plan-block {
+  background-color: #0070f0;
+}
+.pricing-section .plan.best-plan-block .button {
+  background-color: #ffca6a;
+  color: #112136;
+}
+.pricing-section .plan.best-plan-block .button svg path {
+  fill: #112136;
+}
+.pricing-section .plan .best-plan {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #112136;
+  border-radius: 24px;
+  color: #000;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1pt;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  position: absolute;
+  top: -11px;
+  left: 32px;
+}
+.pricing-section .plan h3 {
+  box-sizing: border-box;
+  font-size: 24px;
+  margin-bottom: 16px;
+  padding-left: 13px;
+  position: relative;
+}
+.pricing-section .plan h3:before {
+  background: #0070f0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+}
+.pricing-section .plan .plan-description {
+  margin-bottom: 30px;
+  min-height: 100px;
+}
+.pricing-section .plan .plan-description p {
+  font-size: 14px;
+  line-height: 140%;
+}
+.pricing-section .plan .price-usd {
+  margin-bottom: -5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.pricing-section .plan .price h2 {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.pricing-section .plan .price span {
+  font-size: 12px;
+}
+.pricing-section .plan .button {
+  margin-top: 12px;
+}
+.pricing-section .plan .button .icon {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.pricing-section .comment {
+  margin-top: 11px;
+  width: 553px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .pricing-section {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pricing-section .container {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pricing-section .col {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pricing-section .plan {
+    min-height: auto;
+    padding: 40px 20px 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pricing-section .plan .price {
+    font-size: 64px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pricing-section .plan .button {
+    margin-top: 15px;
+  }
+}

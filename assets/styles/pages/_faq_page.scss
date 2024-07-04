@@ -1,0 +1,101 @@
+.faq-page {
+    box-sizing: border-box;
+    padding: 180px 0 0;
+    @media screen and (max-width: 991px) {
+        padding-top: 80px;
+    }
+    h2 {
+        margin-bottom: 24px;
+    }
+
+    h3 {
+        margin-bottom: 16px;
+    }
+
+    .page-hero {
+        text-align: left;
+        .container {
+            margin: 0 auto 80px;
+            width: 100%;
+        }
+        p {
+            max-width: 540px;
+        }
+        .button {
+            background-color: #2A75E6;
+            margin-top: 32px;
+
+            .icon {
+                display: inline-block;
+                margin-left: 8px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .row {
+        display: flex;
+        @media screen and (max-width: 991px) {
+            display: block;
+        }
+        .col {
+            margin-bottom: 100px;
+            width: 50%;
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
+    
+
+
+    .faq-listings {
+        .section {
+            margin-bottom: 80px;
+        }
+        .faq-section-title {
+            color: #6536D6;
+            margin-bottom: 36px;
+        }
+        .faq-list {
+            box-sizing: border-box;
+            border-bottom: 1px solid #dddddd;
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+            width: calc(100% - 80px);
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+        .faq-question {
+            box-sizing: border-box;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            @media screen and (max-width: 991px) {
+                box-sizing: border-box;
+                padding-right: 40px;
+            }
+            &:before {
+                content: '+';
+                font-size: 18px;
+                position: absolute;
+                top: 0; right: 10px;
+            }
+        }
+        .faq-answer {
+            box-sizing: border-box;
+            display: none;
+            font-size: 14px;
+            padding-right: 64px;
+            opacity: .7;
+            max-width: 540px;
+            &.visible {
+                display: block;
+                margin-top: 16px;
+            }
+        }
+    }
+
+
+}

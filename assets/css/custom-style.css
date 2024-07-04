@@ -1,0 +1,38 @@
+.page-blog-current-post article .author-profile-card {
+  box-sizing: border-box;
+  background-color: #112136;
+  border-radius: 12px;
+  color: #fff;
+  margin-bottom: 60px;
+  padding: 32px;
+}
+
+.page-blog-current-post article .author-profile-card .row {
+	align-items: center;
+}
+
+.page-blog-current-post article .author-profile-card .author-photo {
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+}
+
+.page-blog-current-post article .author-profile-card .author-details {
+    margin-left: 40px;
+    width: calc(100% - 240px);
+}
+
+@media screen and (max-width: 991px) {
+	.page-blog-current-post article .author-profile-card .author-photo {
+    height: 140px;
+    margin-bottom: 24px;
+    width: 140px;
+}
+	
+	.page-blog-current-post article .author-profile-card .author-details {
+    margin-left: 0;
+    width: 100%;
+}
+}

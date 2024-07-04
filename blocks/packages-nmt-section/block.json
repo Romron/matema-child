@@ -1,0 +1,25 @@
+{
+    "name": "acf/packages-nmt-section",
+    "title": "Пакети НМТ",
+    "description": "Блок пакетів НМТ з цінами",
+    "category": "formatting",
+    "icon": "admin-post",
+    "keywords": [
+        "НМТ"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "packages-nmt-section.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "gutenberg_preview_image": "/blocks/packages-nmt-section/packages-nmt-section.png"
+            }
+        }
+    }
+}

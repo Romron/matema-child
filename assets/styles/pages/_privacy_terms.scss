@@ -1,0 +1,37 @@
+.page-terms-privacy {
+    .head {
+        margin-bottom: 64px;
+        text-align: center;
+    }
+    .page-content {
+        margin: 0 auto;
+        max-width: 880px;
+        p {
+            font-size: 12px;
+            line-height: 140%;
+            margin-bottom: 24px;
+            span {
+                display: block;
+                margin-bottom: 1px;
+                font-size: 12px;
+                line-height: 140%;
+            }
+        }
+        ul {
+            margin-bottom: 24px;
+        }
+        ol {
+            margin-bottom: 24px;
+        }
+        li {
+            list-style-type: none;
+            margin-bottom: 10px;
+            span {
+                display: block;
+                margin-bottom: 1px;
+                font-size: 12px;
+                line-height: 140%;
+            }
+        }
+    }
+}

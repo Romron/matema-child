@@ -1,0 +1,140 @@
+
+.page-what-is-diagnostic {
+
+    .lesson-price {
+        strong {
+            display: block;
+            font-size: 22px;
+            margin-bottom: 0!important;
+        }
+    }
+
+    .lesson-goals {
+        margin-bottom: 80px;
+        .col {
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid #CFD6E4;
+            padding: 40px;
+            width: calc(50% - 20px);
+            @media screen and (max-width: 991px) {
+                margin-bottom: 15px;
+                width: 100%;
+            }
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .icon {
+            margin-bottom: 20px;
+            svg {
+                height: 48px;
+                width: 48px;
+            }
+        }
+    }
+
+    .lesson-will-show {
+        margin-bottom: 120px;
+        .col {
+            box-sizing: border-box;
+            background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.86382 12.6576C8.67424 12.4568 8.35779 12.4477 8.157 12.6373C7.95622 12.8269 7.94714 13.1433 8.13671 13.3441L8.86382 12.6576ZM11.7371 16.429L11.3735 16.7722L11.7339 17.154L12.0976 16.7753L11.7371 16.429ZM17.8609 10.7758C18.0522 10.5767 18.0458 10.2601 17.8467 10.0688C17.6475 9.87754 17.331 9.8839 17.1397 10.083L17.8609 10.7758ZM13 25.5001C19.9037 25.5001 25.5 19.9036 25.5 13H24.5C24.5 19.3513 19.3514 24.5001 13 24.5001V25.5001ZM25.5 13C25.5 6.09645 19.9036 0.5 13 0.5V1.5C19.3514 1.5 24.5 6.64873 24.5 13H25.5ZM13 0.5C6.09646 0.5 0.5 6.09644 0.5 13H1.5C1.5 6.64873 6.64874 1.5 13 1.5V0.5ZM0.5 13C0.5 19.9036 6.09645 25.5001 13 25.5001V24.5001C6.64874 24.5001 1.5 19.3513 1.5 13H0.5ZM8.13671 13.3441L11.3735 16.7722L12.1006 16.0857L8.86382 12.6576L8.13671 13.3441ZM12.0976 16.7753L17.8609 10.7758L17.1397 10.083L11.3765 16.0826L12.0976 16.7753Z' fill='%236536D6'/%3E%3C/svg%3E%0A");
+            background-position: left 0 top 0;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            width: calc(25% - 20px);
+            @media screen and (max-width: 991px) {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+        }
+    }
+
+    .after-lesson {
+        margin-bottom: 80px;
+        h3 {
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+        .col {
+            width: calc(50% - 20px);
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+        .result-image {
+            border-radius: 15px;
+            border: 1px solid #CFD6E4;
+            overflow: hidden;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        .lesson-advices {
+            max-width: 480px;
+            li {
+                box-sizing: border-box;
+                font-size: 18px;
+                margin: 60px 0;
+                padding-left: 60px;
+                position: relative;
+                .icon {
+                    position: absolute;
+                    top: 0; left: 0;
+                    svg {
+                        height: 48px;
+                        width: 48px;
+                    }
+                }
+            }
+        }
+    }
+
+    .popular-questions {
+        margin-bottom: 80px;
+        .col {
+            box-sizing: border-box;
+            padding-right: 40px;
+            width: 33.3333%;
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

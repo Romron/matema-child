@@ -1,0 +1,251 @@
+.page-blago-registration {
+    .hero-description-wrap {
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .media-about-us {
+        padding: 20px 40px 40px;
+        .head {
+            display: none;
+        }
+        .col {
+            img {
+                filter: invert(1);
+                max-width: 120px;
+            }
+        }
+    }
+    .media-about-us {
+        padding: 10px;
+        .swiper-slide img {
+            filter: invert(1);
+        }
+    }
+    .blago-form {
+        box-sizing: border-box;
+        background-color: #fff;
+        border: 1px solid #CFD6E4;
+        border-radius: 12px;
+        padding: 40px;
+        br {
+            display: none;
+        }
+        @media screen and (max-width: 991px) {
+            padding: 40px 20px;
+        }
+        .step {
+            &.step-global {
+                margin-bottom: 48px;
+            }
+            &.user-info {
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .step-number {
+            box-sizing: border-box;
+            display: block;
+            font-size: 10px;
+            letter-spacing: 1pt;
+            padding-left: 12px;
+            position: relative;
+            text-transform: uppercase;
+            &:before {
+                background-color: #FFCA6A;
+                border-radius: 50%;
+                content: '';
+                font-size: 12px;
+                height: 4px;
+                margin-top: -2px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 4px;
+            }
+        }
+        strong {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            max-width: 480px;
+            @media screen and (max-width: 991px) {
+                font-size: 14px;
+            }
+            i {
+                box-sizing: border-box;
+                background-color: #6536D6;
+                border-radius: 50%;
+                display: inline-block;
+                font-style: inherit;
+                font-weight: 400;
+                line-height: 24px;
+                margin-right: 10px;
+                text-align: center;
+                width: 24px;
+            }
+        }
+        .wpcf7-list-item {
+            margin-left: 0;
+            label {
+                box-sizing: border-box;
+                border-radius: 24px;
+                background-color: #fff;
+                border: 1px solid #c5c5c5;
+                color: #211D4F;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 12px;
+                line-height: 40px;
+                margin-left: 0;
+                margin-right: 16px;
+                margin-bottom: 16px;
+                padding: 0 24px 0 16px;
+                vertical-align: middle;
+        
+                &:hover {
+                    background-color: #ececec;
+                }
+            }
+        }
+        input[type="text"] {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #CFD6E4;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-bottom: 16px;
+            padding: 15px;
+            max-width: 480px;
+            width: 100%;
+        }
+        input[type="email"] {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #CFD6E4;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-bottom: 16px;
+            padding: 15px;
+            max-width: 480px;
+            width: 100%;
+        }
+        input[type="file"] {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="tel"] {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #CFD6E4;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-bottom: 16px;
+            padding: 15px;
+            max-width: 480px;
+            width: 100%;
+        }
+        textarea {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #CFD6E4;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-bottom: 16px;
+            padding: 15px;
+            resize: none;
+            max-width: 480px;
+            width: 100%;
+        }
+        .c-select {
+            box-sizing: border-box;
+            background-color: #fff;
+            background-image: url("data:image/svg+xml,%3Csvg width='9' height='5' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.34089 1.20875L4.8841 4.52896C4.67197 4.7327 4.32804 4.7327 4.11592 4.52896L0.659096 1.20875C0.446968 1.00501 0.446968 0.674671 0.659096 0.470925C0.871224 0.267179 1.21515 0.267179 1.42728 0.470925L4.50001 3.42222L7.57274 0.470925C7.78489 0.267179 8.12882 0.267179 8.34089 0.470925C8.55304 0.674671 8.55304 1.00501 8.34089 1.20875Z' fill='%23211D4F'/%3E%3C/svg%3E%0A");
+            background-position: right 15px top 50%;
+            background-repeat: no-repeat;
+            background-size: 15px auto;
+            border: 1px solid #CFD6E4;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 0;
+            margin-bottom: 16px;
+            padding: 15px;
+            overflow: hidden;
+            max-width: 480px;
+            select {
+                box-sizing: border-box;
+                cursor: pointer;
+                font-size: 12px;
+                padding: 0;
+                width: 100%;
+                border: none;
+                box-shadow: none;
+                background-color: transparent;
+                background-image: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+            }
+            .select-style select:focus {
+                outline: none;
+            }
+        }
+        .notice {
+            box-sizing: border-box;
+            border-left: 4px solid #34A853;
+            font-size: 12px;
+            margin: 16px 0 32px;
+            padding-left: 16px;
+            max-width: 480px;
+            b {
+                color: #0070F0;
+            }
+        }
+        input[type="submit"] {
+            box-sizing: border-box;
+            background-color: #6536D6;
+            background-image: url("data:image/svg+xml,%3Csvg width='10' height='11' viewBox='0 0 10 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.28815 0.931987C5.05771 0.720746 4.69965 0.736314 4.48841 0.966758C4.27716 1.1972 4.29273 1.55526 4.52318 1.7665L7.97879 4.93415L0.566038 4.93414C0.253423 4.93414 0 5.18757 0 5.50018C0 5.8128 0.253423 6.06622 0.566038 6.06622L7.97879 6.06623L4.52318 9.23386C4.29273 9.4451 4.27716 9.80314 4.48841 10.0336C4.69965 10.264 5.05771 10.2796 5.28815 10.0684L9.81645 5.91744C9.93343 5.81023 10 5.65885 10 5.50019C10 5.34152 9.93343 5.19014 9.81645 5.08293L5.28815 0.931987Z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+            background-position: right 24px top 50%;
+            background-repeat: no-repeat;
+            border-radius: 40px;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px;
+            line-height: 60px;
+            letter-spacing: .2pt;
+            padding: 0 24px;
+            padding-right: 48px;
+            text-align: center;
+            transition: .2s ease;
+            user-select: none;
+        }
+    }
+}
+.codedropz-upload-handler {
+    margin-top: 12px;
+    .codedropz-upload-container {
+        margin-top: 10px!important;
+        padding: 24px 16px!important;
+    }
+    .codedropz-upload-inner {
+        h4 {
+            margin-bottom: 5px!important;
+        }
+    }
+    .codedropz-btn-wrap {
+        margin-top: 10px!important;
+    }
+    .cd-upload-btn {
+        box-sizing: border-box!important;
+        background-color: #6536D6!important;
+        border-radius: 5px!important;
+        color: #fff!important;
+        display: block!important;
+        margin-top: 10px!important;
+        padding: 10px!important;
+    }
+}

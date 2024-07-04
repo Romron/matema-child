@@ -1,0 +1,248 @@
+.page-diagnostic-registration {
+    .hero-description-wrap {
+        margin: 0 auto 80px;
+        text-align: center;
+    }
+    .diagnostic-form {
+        box-sizing: border-box;
+        background-color: #fff;
+        border: 1px solid #CFD6E4;
+        border-radius: 24px;
+        margin-bottom: 60px;
+        padding: 40px;
+        @media screen and (max-width: 991px) {
+            padding: 40px 20px;
+        }
+        .step {
+            margin-bottom: 48px;
+            &.user-info {
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .step-number {
+            box-sizing: border-box;
+            display: block;
+            margin-bottom: -24px;
+            font-size: 12px;
+            padding-left: 10px;
+            position: relative;
+            text-transform: uppercase;
+            &:before {
+                background-color: #6536D6;
+                border-radius: 50%;
+                content: '';
+                height: 4px;
+                margin-top: -2px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 4px;
+            }
+        }
+        strong {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            @media screen and (max-width: 991px) {
+                font-size: 16px;
+            }
+            i {
+                box-sizing: border-box;
+                background-color: #6536D6;
+                border-radius: 50%;
+                color: #fff;
+                display: inline-block;
+                font-style: inherit;
+                font-weight: 400;
+                line-height: 24px;
+                margin-right: 10px;
+                text-align: center;
+                width: 24px;
+            }
+        }
+        .wpcf7-list-item {
+            margin-left: 0;
+            label {
+                box-sizing: border-box;
+                // background-color: #2A75E6;
+                border-radius: 24px;
+                border: 1px solid #c5c5c5;
+                // color: #fff;
+                cursor: pointer;
+                display: inline-block;
+                line-height: 40px;
+                margin-left: 0;
+                margin-right: 16px;
+                margin-bottom: 16px;
+                padding: 0 24px 0 16px;
+        
+                &:hover {
+                    background-color: #ececec;
+                }
+            }
+        }
+        input[type="text"] {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #CFD6E4;
+            border-radius: 24px;
+            margin-bottom: 16px;
+            padding: 15px;
+            width: 100%;
+        }
+        input[type="tel"] {
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #CFD6E4;
+            border-radius: 24px;
+            margin-bottom: 16px;
+            padding: 15px;
+            width: 100%;
+        }
+        .notice {
+            box-sizing: border-box;
+            border-left: 4px solid #34A853;
+            margin: 16px 0 32px;
+            padding-left: 16px;
+            max-width: 480px;
+        }
+        input[type="submit"] {
+            box-sizing: border-box;
+            background-color: #6536D6;
+            background-image: url("data:image/svg+xml,%3Csvg width='10' height='11' viewBox='0 0 10 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.28815 0.931987C5.05771 0.720746 4.69965 0.736314 4.48841 0.966758C4.27716 1.1972 4.29273 1.55526 4.52318 1.7665L7.97879 4.93415L0.566038 4.93414C0.253423 4.93414 0 5.18757 0 5.50018C0 5.8128 0.253423 6.06622 0.566038 6.06622L7.97879 6.06623L4.52318 9.23386C4.29273 9.4451 4.27716 9.80314 4.48841 10.0336C4.69965 10.264 5.05771 10.2796 5.28815 10.0684L9.81645 5.91744C9.93343 5.81023 10 5.65885 10 5.50019C10 5.34152 9.93343 5.19014 9.81645 5.08293L5.28815 0.931987Z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+            background-position: right 24px top 50%;
+            background-repeat: no-repeat;
+            border-radius: 40px;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px;
+            line-height: 60px;
+            letter-spacing: .2pt;
+            padding: 0 24px;
+            padding-right: 48px;
+            text-align: center;
+            transition: .2s ease;
+            user-select: none;
+        }
+    }
+    // AB Page
+    .diagnostic-info-section {
+        background-color: #211D4F;
+        color: #fff;
+        margin-top: 60px;
+        margin-bottom: 120px;
+        padding: 60px 0;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 60px;
+        }
+    }
+
+    .diagnostic-info-section .row {
+        display: flex;
+    }
+
+    .diagnostic-info-section .col {
+        width: 50%;
+    }
+
+    @media screen and (max-width: 768px) {
+        .diagnostic-info-section .col {
+            width: 100%;
+        }
+    }
+    .trust-widget {
+        color: #000;
+        font-size: 12px;
+        margin-bottom: 24px;
+        .stars {
+            align-items: center;
+            display: flex;
+            margin: auto;
+            max-width: 212px;
+        }
+        svg {
+            display: block;
+            margin: 6px auto;
+        }
+    }
+
+    .after-lesson {
+        margin-bottom: 120px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 60px;
+        }
+        .col {
+            box-sizing: border-box;
+            width: 50%;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+        .head {
+            box-sizing: border-box;
+            padding-right: 124px;
+            @media screen and (max-width: 768px) {
+                padding-right: 0;
+            }
+        }
+        .diagnostic-results {
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            .logo {
+                margin-bottom: 24px;
+            }
+            strong {
+                display: block;
+                margin-bottom: 12px;
+            }
+            li {
+                list-style-type: none;
+                font-size: 14px;
+                margin-bottom: 6px;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            .verdict {
+                box-sizing: border-box;
+                background-color: #F1F1EF;
+                border-radius: 6px;
+                margin-top: 12px;
+                padding: 24px 12px;
+                strong {
+                    margin-bottom: 6px;
+                }
+                p {
+                    box-sizing: border-box;
+                    font-size: 16px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+    .trustpilot-section {
+        margin-bottom: 120px;
+        &:before {
+            display: none;
+        }
+    }
+
+    #diagnostic-loader {
+        box-sizing: border-box;
+        background-color: #fff;
+        display: none;
+        padding: 40px;
+        position: fixed;
+        top: 50%; left: 50%;
+        width: 320px;
+        z-index: 5;
+        transform: translate3d(-50%, -50%, 0);
+    }
+}

@@ -1,0 +1,110 @@
+.page-blago-registration-success {
+    .hero-description-wrap {
+        margin: 0 auto 180px;
+        text-align: center;
+        .call-icon {
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: 0 auto 12px;
+            overflow: hidden;
+            max-width: 200px;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 991px) {
+            margin-bottom: 80px;
+        }
+    }
+    
+    .about-school {
+        margin-bottom: 180px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 80px;
+        }
+        .row {
+            align-items: flex-start;
+            @media screen and (max-width: 991px) {
+                display: block;
+            }
+        }
+        .col {
+            width: calc(50% - 20px);
+            @media screen and (max-width: 991px) {
+                margin-bottom: 24px;
+                width: 100%;
+            }
+        }
+
+        .text-block {
+            max-width: 80%;
+            @media screen and (max-width: 991px) {
+                max-width: 100%;
+            }
+
+            p {
+                max-width: 575px;
+            }
+        }
+        .statistic {
+            ul {
+                list-style-type: none;
+                margin-top: 0;
+            }
+            li {
+                box-sizing: border-box;
+                margin-bottom: 24px;
+                font-size: 18px;
+                font-weight: 500;
+                padding-left: 24px;
+                position: relative;
+                &:before {
+                    box-sizing: border-box;
+                    background: #6536D6;
+                    border-radius: 50%;
+                    content: '';
+                    height: 8px;
+                    position: absolute;
+                    top: 12px; left: 0;
+                    width: 8px;
+                }
+            }
+        }
+    }
+
+    .press-section {
+        margin-bottom: 120px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 80px;
+        }
+        .logos {
+            svg {
+                width: 100%;
+            }
+        }
+    }
+
+    .teachers-section {
+        margin-bottom: 120px;
+    }
+
+    .video-reviews {
+        box-sizing: border-box;
+        @media screen and (max-width: 991px) {
+            padding-top: 60px;
+        }
+
+        h2 {
+            color: #000;
+        }
+
+        strong {
+            color: #000;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}

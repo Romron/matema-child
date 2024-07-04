@@ -1,0 +1,25 @@
+{
+    "name": "acf/media-about-us-section",
+    "title": "ЗМІ Про нас",
+    "description": "ЗМІ Про нас",
+    "category": "formatting",
+    "icon": "admin-post",
+    "keywords": [
+        "ЗМІ Про нас"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "media-about-us-section.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "gutenberg_preview_image": "/blocks/media-about-us-section/media-about-us-section.png"
+            }
+        }
+    }
+}

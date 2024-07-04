@@ -1,0 +1,185 @@
+.page-about {
+    .head-about {
+        text-align: center;
+        .wrap {
+            margin: 0 auto;
+            max-width: 640px;
+            .turstpilot {
+                margin-top: 24px;
+            }
+        }
+    }
+
+    .history-section {
+        margin: 60px 0 100px;
+        .row {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .col-7 {
+            width: calc(75% - 16px);
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+            .image {
+                box-sizing: border-box;
+                border-radius: 12px;
+                box-shadow: 0 0 5px rgba(0,0,0,.1);
+                overflow: hidden;
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 24px;
+                }
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+        .col-3 {
+            width: calc(25% - 16px);
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
+
+    .countries-section {
+        margin-bottom: 100px;
+        text-align: center;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            .countrie {
+                font-size: 18px;
+                font-weight: 700;
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+
+    .video-intoduction {
+        margin-bottom: 100px;
+    }
+
+    .about-socials {
+        margin-bottom: 100px;
+        text-align: center;
+        .head {
+            margin: 0 auto 48px;
+            max-width: 640px;
+        }
+        .socials {
+            .row {
+                align-items: flex-end;
+                display: flex;
+                justify-content: center;
+            }
+            .social {
+                margin: 0 32px;
+                .image {
+                    margin: 0 auto 12px;
+                    max-width: 150px;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+
+    .about-offers {
+        margin-bottom: 100px;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @media screen and (max-width: 991px) {
+                display: block;
+            }
+            .col {
+                width: calc(33.3333% - 32px);
+                @media screen and (max-width: 991px) {
+                    width: 100%;
+                }
+            }
+            .offer {
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 32px;
+                }
+                .counter {
+                    color: #0070f0;
+                    font-size: 48px;
+                    display: block;
+                    margin-bottom: 12px;
+                }
+                .image {
+                    margin-bottom: 12px;
+                    max-width: 150px;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+                p {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+
+    .documents-section {
+        margin-bottom: 100px;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            .col {
+                width: calc(25% - 24px);
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 12px;
+                    width: 100%;
+                }
+            }
+            .doc-block {
+                box-sizing: border-box;
+                background-color: #112136;
+                border-radius: 10px;
+                color: #fff;
+                padding: 32px;
+                position: relative;
+            }
+            .info {
+                display: flex;
+                flex-wrap: wrap;
+                @media screen and (max-width: 991px) {
+                    display: block;
+                }
+                .doc-title {
+                    box-sizing: border-box;
+                    font-size: 14px;
+                    padding-left: 12px;
+                    position: relative;
+                    &:before {
+                        background: #0070f0;
+                        content: "";
+                        height: 100%;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 3px;
+                    }
+                }
+            }
+            .button {
+                margin-top: 100px;
+            }
+        }
+    }
+}

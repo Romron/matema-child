@@ -1,0 +1,252 @@
+.payment-page {
+    box-sizing: border-box;
+    @media screen and (max-width: 991px) {
+        padding-top: 0;
+    }
+    h2 {
+        margin-bottom: 24px;
+    }
+
+    h3 {
+        margin-bottom: 16px;
+    }
+
+    .page-hero {
+        margin-bottom: 0;
+        text-align: left;
+        .container {
+            margin: 0 auto 80px;
+            width: 100%;
+        }
+        p {
+            max-width: 540px;
+        }
+        .button {
+            background-color: #2A75E6;
+            margin-top: 32px;
+
+            .icon {
+                display: inline-block;
+                margin-left: 8px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .row {
+        display: flex;
+        @media screen and (max-width: 991px) {
+            display: block;
+        }
+        .col-4 {
+            width: 25%;
+        
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
+
+    .payment-section {
+        margin-bottom: 20px;
+
+        .two-columns {
+            box-sizing: border-box;
+            align-items: center;
+            .col {
+                box-sizing: border-box;
+                width: 50%;
+
+                @media screen and (max-width: 991px) {
+                    margin-bottom: 32px;
+                    width: 100%;
+                }
+
+                .number {
+                    color: #0070F0;
+                    display: block;
+                    font-size: 48px;
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    max-width: 505px;
+                }
+            }
+
+            .list-block {
+                box-sizing: border-box;
+                background-color: #5A2FD0;
+                color: #fff;
+                border-radius: 10px;
+                padding: 48px;
+
+                @media screen and (max-width: 991px) {
+                    padding: 32px;
+                    max-width: 100%;
+                }
+
+                .pricing-text {
+                    .row {
+                        align-items: flex-end;
+                        justify-content: flex-start;
+                    }
+                }
+
+                .price-block {
+                    box-sizing: border-box;
+                    margin: 16px 0 24px;
+                    padding-right: 16px;
+
+                    strong {
+                        display: block;
+                        font-size: 48px;
+                        line-height: 1;
+                    }
+
+                    small {
+                        font-size: 12px;
+                        font-weight: normal;
+                    }
+
+                    &.smaller {
+                        strong {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .payment-button {
+                    background-color: #fff;
+                    justify-content: space-between;
+                    color: #000;
+                    &:hover {
+                        background-color: #000;
+                        color: #fff;
+                    }
+                    svg {
+                        margin-left: 10px;
+                        transform: translateY(3px);
+                    }
+                }
+            }
+
+            .list {
+                box-sizing: border-box;
+                padding-left: 80px;
+                @media screen and (max-width: 991px) {
+                    padding-left: 0;
+                }
+                h3 {
+                    margin-bottom: 42px;
+                }
+                ul {
+                    align-items: flex-start;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin-bottom: 0;
+                }
+                li {
+                    box-sizing: border-box;
+                    align-items: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-bottom: 24px;
+                    justify-content: space-between;
+                    list-style: none;
+                    line-height: 1.2;
+                    position: relative;
+                    width: 50%;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    .icon {
+                        box-sizing: border-box;
+                        // border-radius: 50%;
+                        // margin-bottom: 12px;
+                        width: 64px;
+                        svg {
+                            height: auto;
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 120%;
+                        font-weight: 500;
+                        width: calc(100% - 80px);
+                    }
+                }
+            }
+        }
+
+        .notice {
+            font-size: 12px;
+            line-height: 140%;
+            max-width: 320px!important;
+        }
+    }
+
+    .media-about-us {
+        margin-bottom: 60px;
+    }
+
+    // Feedback Poland
+    .feedback-section {
+        margin-bottom: 100px;
+
+        .row {
+            justify-content: space-between;
+        }
+
+        .col {
+            margin-bottom: 20px;
+            width: calc(50% - 10px);
+
+            @media screen and (max-width: 991px) {
+                margin-bottom: 16px;
+                width: 100%;
+            }
+        }
+
+        .feed-block {
+            box-sizing: border-box;
+            border: 1px solid #6636d631;
+            border-radius: 10px;
+            min-height: 280px;
+            padding: 64px 24px 24px;
+            position: relative;
+
+            &:before {
+                box-sizing: border-box;
+                background-image: url("data:image/svg+xml,%3Csvg width='32' height='25' viewBox='0 0 32 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M31.6722 16.5749C31.4543 15.9037 31.0763 15.2888 30.5505 14.7327C29.9996 14.1515 29.2757 13.7018 28.378 13.3766C27.4794 13.054 26.3256 12.8906 24.9038 12.8906H22.9743C23.2043 10.5156 24.0502 8.49445 25.5135 6.82353C26.9743 5.1578 28.9998 3.69185 31.5892 2.43434L30.0186 0.000610352C26.6093 1.45272 23.6921 3.57683 21.2688 6.38245C18.8463 9.19066 17.6398 11.9729 17.6398 14.7327C17.6398 17.6975 18.3395 20.0231 19.7501 21.7018C21.1606 23.3805 23.181 24.2168 25.8076 24.2168C27.4742 24.2168 28.922 23.6607 30.1535 22.5494C31.3834 21.4397 32 20.1399 32 18.6575C32 17.9422 31.8919 17.246 31.6722 16.5749ZM14.0324 16.5749C13.8128 15.9037 13.4357 15.2888 12.909 14.7327C12.3598 14.1515 11.635 13.7018 10.7364 13.3766C9.83957 13.054 8.68585 12.8906 7.26314 12.8906H5.33277C5.56369 10.5156 6.40866 8.49445 7.87115 6.82353C9.33277 5.1578 11.36 3.69185 13.9477 2.43434L12.378 0.000610352C8.96779 1.45272 6.05233 3.57683 3.62811 6.38245C1.20563 9.19066 0 11.9729 0 14.7327C0 17.6975 0.697942 20.0231 2.1094 21.7018C3.51827 23.3805 5.53862 24.2168 8.16694 24.2168C9.83267 24.2168 11.2822 23.6607 12.5137 22.5494C13.7436 21.4397 14.3593 20.1399 14.3593 18.6575C14.3593 17.9422 14.2495 17.246 14.0324 16.5749Z' fill='%236536D6'/%3E%3C/svg%3E%0A");
+                background-color: #fff;
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+                content: '';
+                height: 64px;
+                position: absolute;
+                left: 24px;
+                top: -32px;
+                width: 64px;
+                z-index: 2;
+            }
+
+            .author {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 12px;
+
+                small {
+                    display: block;
+                    font-size: 12px;
+                }
+            }
+
+            .quote {
+                line-height: 160%;
+            }
+        }
+    }
+}

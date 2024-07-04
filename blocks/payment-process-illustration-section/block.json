@@ -1,0 +1,26 @@
+{
+    "name": "acf/payment-process-illustration-section",
+    "title": "Ілюстрація процесу оплати",
+    "description": "Ілюстрація процесу оплати",
+    "category": "formatting",
+    "icon": "admin-post",
+    "keywords": [
+        "Ілюстрація",
+        "процес оплати"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "payment-process-illustration-section.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "gutenberg_preview_image": "/blocks/payment-process-illustration-section/payment-process-illustration-section.png"
+            }
+        }
+    }
+}

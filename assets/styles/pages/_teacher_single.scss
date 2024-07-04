@@ -1,0 +1,40 @@
+.teacher-current {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .teacher-head {
+        box-sizing: border-box;
+        position: relative;
+        max-width: 320px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+            max-width: 100%;
+        }
+    }
+
+    .bio-section {
+        margin: 0 auto 60px;
+        width: calc(100% - 360px);
+        @media screen and (max-width: 991px) {
+            width: 100%;
+        }
+        .blue-wrap {
+            box-sizing: border-box;
+            background-color: #112136;
+            border-radius: 24px;
+            color: #fff;
+            padding: 40px;
+        }
+        .teachers-bio {
+            margin-bottom: 60px;
+        }
+    }
+}
+/*
+    Other teaches
+*/
+.other-teachers {
+    margin: 60px 0;
+}

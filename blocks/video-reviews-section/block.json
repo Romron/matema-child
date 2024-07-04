@@ -1,0 +1,25 @@
+{
+    "name": "acf/video-reviews-section",
+    "title": "Розділ Відео огляди",
+    "description": "Розділ Відео огляди",
+    "category": "formatting",
+    "icon": "admin-post",
+    "keywords": [
+        "Відео огляди"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "video-reviews-section.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "gutenberg_preview_image": "/blocks/video-reviews-section/video-reviews-section.png"
+            }
+        }
+    }
+}

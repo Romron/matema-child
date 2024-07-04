@@ -1,0 +1,359 @@
+header {
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    border-radius: 6px;
+    padding: 12px 0;
+    position: fixed;
+    top: 4px;
+    left: 50%;
+    max-width: 1280px;
+    width: 100%;
+    z-index: 99;
+    transition: .2s ease;
+    transform: translate3d(-50%, 0, 0);
+    @media screen and (max-width: 1280px) {
+        width: calc(100% - 30px);
+    }
+    @media screen and (max-width: 1280px) {
+        width: calc(100% - 20px);
+    }
+    &.scrolled {
+        background-color: #FCFDFE;
+    }
+
+    .row {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        box-sizing: border-box;
+        padding: 0 24px;
+        position: relative;
+        @media screen and (max-width: 991px) {
+            padding: 0 15px;
+        }
+    }
+
+    .logo {
+        height: 30px;
+        margin-right: 20px;
+        position: relative;
+        width: 105px;
+        transition: .2s;
+        z-index: 5;
+
+        &:hover {
+            opacity: .9;
+        }
+    }
+
+    .left-side {
+        align-items: center;
+        display: flex;
+    }
+
+    .navigation {
+        position: absolute;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        ul {
+            display: flex;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            line-height: 32px;
+            margin: 0 12px;
+            position: relative;
+
+            &.menu-item-has-children {
+                padding-right: 16px;
+
+                &:before {
+                    background-image: url("data:image/svg+xml,%3Csvg width='9' height='5' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.34089 1.20875L4.8841 4.52896C4.67197 4.7327 4.32804 4.7327 4.11592 4.52896L0.659096 1.20875C0.446968 1.00501 0.446968 0.674671 0.659096 0.470925C0.871224 0.267179 1.21515 0.267179 1.42728 0.470925L4.50001 3.42222L7.57274 0.470925C7.78489 0.267179 8.12882 0.267179 8.34089 0.470925C8.55304 0.674671 8.55304 1.00501 8.34089 1.20875Z' fill='%23211D4F'/%3E%3C/svg%3E%0A");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100% auto;
+                    content: '';
+                    height: 5px;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    margin-top: -2.5px;
+                    width: 10px;
+                }
+
+                &:hover {
+                    &:before {
+                        border-top-color: #FF6943;
+                    }
+
+                    .sub-menu {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+
+            a {
+                display: block;
+                font-size: 14px;
+                line-height: 50px;
+                transition: .2s ease;
+            }
+
+            .sub-menu {
+                box-sizing: border-box;
+                background-color: #FCFDFE;
+                box-shadow: 0 2px 10px rgba(0,0,0,.05);
+                border-radius: 12px;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 20px;
+                position: fixed;
+                top: 100%;
+                left: 50%;
+                max-width: 640px;
+                width: 100vw;
+                transform: translateX(-50%);
+                opacity: 0;
+                visibility: hidden;
+                li {
+                    box-sizing: border-box;
+                    display: flex;
+                    cursor: pointer;
+                    margin: 0;
+                    padding-right: 20px;
+                    width: 50%;
+                }
+
+                a {
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    display: block;
+                    font-size: 14px;
+                    line-height: 1;
+                    padding: 15px;
+                    position: relative;
+                    text-align: left;
+                    width: 100%;
+                    &:hover {
+                        background-color: #F4F5F7;
+                    }
+                }
+            }
+        }
+    }
+
+    .right-side {
+        align-items: center;
+        display: flex;
+    }
+
+    .phone {
+        font-size: 12px;
+        margin-right: 20px;
+        transition: .2s;
+        position: relative;
+        z-index: 4;
+
+        &:hover {
+            color: #FF6943;
+        }
+    }
+
+    .language-switcher {
+        margin-left: 12px;
+        position: relative;
+        height: 12px;
+        width: 18px;
+        z-index: 5;
+        &:hover {
+            li {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        ul {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            padding-top: 18px;
+        }
+        li {
+            &.wpml-ls-current-language {
+                opacity: 1;
+                position: absolute;
+                top: 0; left: 0;
+                visibility: visible;
+            }
+            opacity: 0;
+            visibility: hidden;
+            span {
+                display: none;
+            }
+        }
+        .wpml-ls-flag {
+            display: block;
+        }
+    }
+
+    .menu-trigger {
+        margin-left: 16px;
+        width: 24px;
+        span {
+            background-color: #2F3D4F;
+            border-radius: 50px;
+            display: block;
+            height: 2px;
+            margin: 5px 0;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header {
+        padding: 10px 0;
+        .row {
+            display: flex !important;
+        }
+        .logo {
+            margin-right: 0;
+        }
+        .navigation {
+            display: none;
+        }
+        .phone {
+            display: none;
+        }
+        .cta {
+            line-height: 40px;
+        }
+        .button {
+            box-sizing: border-box;
+            font-size: 10px;
+            line-height: 30px;
+            padding: 0 12px;
+            .icon {
+                display: none;
+            }
+        }
+    }
+}
+
+.mobile-menu {
+    box-sizing: border-box;
+    background-color: #F4EEEB;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    padding: 80px 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 49;
+    transition: .2s;
+    transform: translate3d(100%, 0, 0);
+
+    &.visible {
+        transform: translate3d(0, 0, 0);
+    }
+
+    li {
+        border-bottom: 1px solid #dadada;
+        list-style-type: none;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    .sub-menu {
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-top: 6px;
+        li {
+            border-bottom: 0;
+            display: block;
+            margin-bottom: 6px;
+            padding-bottom: 0;
+            width: 100%;
+        }
+        a {
+            box-sizing: border-box;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1;
+            padding-left: 16px;
+        }
+    }
+
+    a {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+.page-template-page-help-study {
+    header {
+        &.scrolled {
+            background-color: #211D4F;
+        }
+        .logo {
+            svg path {
+                fill: #fff;
+            }       
+        }
+        .navigation li a {
+            color: #fff;
+        }
+        .phone {
+            color: #fff;
+        }
+        .button {
+            background-color: #2A75E6;
+        }
+        .menu-trigger span {
+            background-color: #fff;
+        }
+    }
+}
+
+.page-template-page-help-salary {
+    header {
+        &.scrolled {
+            background-color: #F9D549;
+        }
+
+        .logo {
+            svg path {
+                fill: #211D4F;
+            }
+        }
+
+        .navigation li a {
+            color: #211D4F;
+        }
+
+        .phone {
+            color: #211D4F;
+        }
+        .button {
+            background-color: #2A75E6;
+        }
+        .menu-trigger span {
+            background-color: #211D4F;
+        }
+    }
+}

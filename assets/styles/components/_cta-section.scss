@@ -1,0 +1,26 @@
+.cta-section {
+    box-sizing: border-box;
+    background-color: #FF6943;
+    border-radius: 24px;
+    margin-bottom: 80px;
+    padding: 80px;
+    text-align: center;
+    @media screen and (max-width: 991px) {
+        padding: 40px;
+    }
+    h2 {
+        color: #fff;
+    }
+    strong {
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .button {
+        border: 1px solid transparent;
+        margin-top: 60px;
+        &:hover {
+            border-color: #fff;
+        }
+    }
+}

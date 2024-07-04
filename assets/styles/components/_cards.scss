@@ -1,0 +1,35 @@
+.cards-features {
+    .card {
+        box-sizing: border-box;
+        background-color: #112136;
+        border-radius: 10px;
+        color: #282828;
+        min-height: 360px;
+        padding: 32px;
+        position: relative;
+        @media screen and (max-width: 991px) {
+            min-height: auto;
+            padding: 16px;
+        }
+        &.short-height {
+            min-height: 160px;
+            @media screen and (max-width: 991px) {
+                min-height: auto;
+            }
+        }
+        &.yellow-bg {
+            background-color: #F9D549;
+        }
+        &.darkblue-bg {
+            background-color: #112136;
+            color: #fff;
+        }
+        strong {
+            display: block;
+            margin-bottom: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}

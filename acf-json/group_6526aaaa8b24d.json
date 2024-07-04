@@ -1,0 +1,363 @@
+{
+    "key": "group_6526aaaa8b24d",
+    "title": "Блок, що розгортається та згортається",
+    "fields": [
+        {
+            "key": "field_6526b7dd19608",
+            "label": "Заголовок",
+            "name": "zagolovok",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 2,
+            "default_value": "Курс безкоштовної підготовки до НМТ з математики",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6526aaaba9338",
+            "label": "Блок що розгортається та згортається",
+            "name": "blok_shho_rozgortatsya",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 3,
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_6526aaf5a9339",
+            "button_label": "Додати ще один блок",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6526aaf5a9339",
+                    "label": "Акордеон",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 3,
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0,
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_652fdb5f2687e",
+                    "label": "Заголовок загального блоку із зображенням",
+                    "name": "zagolovok_zagalnogo_bloku_iz_zobrazhennyam",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Залиште пустим, якщо перед цим елементом не потрібен фіолетовий заголовок із зображенням",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 2,
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_652fdbca2687f",
+                    "label": "Зображення фіолетового блоку",
+                    "name": "zobrazhennya_fioletovogo_bloku",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Залиште пустим, якщо непотрібне",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "purplimg",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 3,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_6526b4d1352b8",
+                    "label": "Ідентифікатор блоку",
+                    "name": "identifiant",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "Ідентифікатори кожного блоку мають бути унікальними, починаючись зі значення \"1000\". Відображатись для відвідувачів сайту вони не будуть.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 3,
+                    "default_value": 1000,
+                    "min": 1000,
+                    "max": "",
+                    "placeholder": "",
+                    "step": 1,
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_6526ac03f80b4",
+                    "label": "Заголовок блоку що розгортається",
+                    "name": "zagolovok_bloku",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 2,
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_653005ea1bd93",
+                    "label": "YouTube URL",
+                    "name": "youtube_url",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Leave empty if no video needed",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 2,
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_653006511bd94",
+                    "label": "YouTube кавер изображение",
+                    "name": "youtube",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_653005ea1bd93",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 3,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "full",
+                    "parent_repeater": "field_6526aaaba9338"
+                },
+                {
+                    "key": "field_6526ac24f80b6",
+                    "label": "Вміст",
+                    "name": "vmist",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "wpml_cf_preferences": 2,
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0,
+                    "parent_repeater": "field_6526aaaba9338"
+                }
+            ]
+        },
+        {
+            "key": "field_65aec57225f6e",
+            "label": "Перелінковка. заголовок 1",
+            "name": "perelinkovka_zagolovok_1",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 2,
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_65aec5fd25f6f",
+            "label": "Перелінковка. колонка 1",
+            "name": "perelinkovka_kolonka_1",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 2,
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_65aec61325f70",
+            "label": "Перелінковка заголовок 2",
+            "name": "perelinkovka_zagolovok_2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 2,
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_65aec61b25f71",
+            "label": "Перелінковка колонка 2",
+            "name": "perelinkovka_kolonka_2",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 2,
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "120884"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "120884"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-switchblock.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfml_field_group_mode": "localization",
+    "modified": 1716536910
+}

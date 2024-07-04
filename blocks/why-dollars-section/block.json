@@ -1,0 +1,25 @@
+{
+    "name": "acf/why-dollars-section",
+    "title": "Чому долари?",
+    "description": "Чому долари?",
+    "category": "formatting",
+    "icon": "admin-post",
+    "keywords": [
+        "Чому долари?"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "why-dollars-section.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "gutenberg_preview_image": "/blocks/why-dollars-section/why-dollars-section.png"
+            }
+        }
+    }
+}
