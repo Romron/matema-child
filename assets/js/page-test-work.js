@@ -8,7 +8,7 @@ titles.forEach(title => {
 
       console.log("e.target = ");
 
-      e.target.closest('.test-work-article').querySelector('.test-work-article__body').toggle('.test-work-article__body_active')
+      e.target.closest('.test-work-article').querySelector('.test-work-article__body').classList.toggle('.body-active');
 
    });
 })

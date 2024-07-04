@@ -34,15 +34,18 @@ flex-basis: 50%;
 
 	height: 0px;
 	overflow: hidden;
-	pointerevents: none;
+	pointer-events: none;
 	opacity: 0;
 	width: 0px;
-	z-index: 0;
 
 }
 
-.test-work-article__body_active{
-
+.body-active{
+	height: 150px;
+	/* overflow: hidden; */
+	/* pointerevents: none; */
+	opacity: 1;
+	width: 100%;
 }
 
 .gravity-form{
