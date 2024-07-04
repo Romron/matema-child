@@ -18,12 +18,12 @@ get_header(); ?>
 
          <section class="test-work-section">
             <article class="test-work-article">
-               <div class="test-work-article__header"><?php echo get_field('left_column_title'); ?></div>
+               <div class="test-work-article__title"><?php echo get_field('left_column_title'); ?></div>
                <div class="test-work-article__body"><?php echo get_field('left_column_description'); ?></div>
             </article>
 
             <article class="test-work-article">
-               <div class="test-work-article__header"><?php echo get_field('right_column_title'); ?></div>
+               <div class="test-work-article__title"><?php echo get_field('right_column_title'); ?></div>
                <div class="test-work-article__body"><?php echo get_field('right_column_description'); ?></div>
             </article>
 

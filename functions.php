@@ -17,6 +17,8 @@ function my_theme_enqueue_styles2()
         wp_get_theme()->get('Version')
     );
     wp_enqueue_style('rmbt-page-test-work',  get_stylesheet_directory_uri() . '/assets/styles/page-test-work.css', array(), '1.0', 'all' );
+
+    wp_enqueue_script( 'rmbt-page-test-work', get_stylesheet_directory_uri() . '/assets/js/page-test-work.js', array(  ), '1.0', true );
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles2', 20);
 
