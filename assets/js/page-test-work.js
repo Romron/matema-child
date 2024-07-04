@@ -1,15 +1,12 @@
-const titles = document.querySelectorAll('.test-work-article__title');
-const bodyes = document.querySelectorAll('.test-work-article__body');
+const sections = document.querySelectorAll('.test-work-section');
 
-console.log("titles = ", titles);
-titles.forEach(title => {
-   
-   title.addEventListener('click', e => {
-
-      bodyes.forEach(body => {
-         body.classList.toggle('body-active');
-      });
-
-
+sections.forEach(section => {
+   section.addEventListener('click', e => {
+      let target = e.target;
+      if (target.classList.contains('test-work-article__title')) {
+         section.querySelectorAll('.test-work-article__body').forEach(body => {
+            body.classList.toggle('body-active');
+         });;
+      }
    });
 })
